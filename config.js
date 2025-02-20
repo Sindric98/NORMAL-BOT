@@ -28,7 +28,7 @@ module.exports = { session: process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA5V
     ANTIDELETE2 : process.env.ANTIDELETE2 || 'yes',
     MENUTYPE : process.env.MENUTYPE || '',
     ANTICALL : process.env.ANTICALL || 'yes',
-                  ANTILINK_GROUP : process.env.ANTILINK_GROUP || 'yes',
+                  ANTILINK_GROUP : process.env.ANTILINK_GROUP || 'no',
                   AUTO_REACT : process.env.AUTO_REACT || 'yes',
                   AUTO_REACT_STATUS : process.env.AUTO_REACT_STATUS || 'yes',
                   AUTO_REPLY : process.env.AUTO_REPLY || 'no',
